@@ -1,6 +1,0 @@
-app:
-  name: "quantum-circuit-depth-transpiler"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"

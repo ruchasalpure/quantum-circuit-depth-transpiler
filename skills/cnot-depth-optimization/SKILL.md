@@ -1,17 +1,25 @@
 ---
-name: "cnot-depth-optimization"
-description: "Performs swap-routing and Peephole unitary commutation synthesis to minimize gate errors across heavy-hex coupling topologies"
-version: "1.0.0"
-category: "research"
+name: cnot-depth-optimization
+description: Specialized capability for Quantum Circuit Depth Transpiler.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: research
 ---
 
-# Skill: cnot-depth-optimization
+# Quantum Circuit Depth Transpiler — CNOT DEPTH OPTIMIZATION Skill
 
-## Overview
-Performs swap-routing and Peephole unitary commutation synthesis to minimize gate errors across heavy-hex coupling topologies.
+## Purpose
+The `cnot-depth-optimization` capability provides high-assurance execution routines for `Quantum Circuit Depth Transpiler`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.

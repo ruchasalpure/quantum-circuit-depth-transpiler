@@ -1,8 +1,0 @@
-{
-  "agent_id": "quantum-circuit-depth-transpiler",
-  "protocol": "opencode/v1",
-  "capabilities": [
-    "autonomous",
-    "governed"
-  ]
-}
