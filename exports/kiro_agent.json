@@ -1,0 +1,5 @@
+{
+  "name": "quantum-circuit-depth-transpiler",
+  "service": "aws-kiro",
+  "version": "1.0.0"
+}
